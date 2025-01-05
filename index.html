@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codewars User Viewer</title>
+    <link rel="stylesheet" href="cw.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form id="userForm">
+                <input type="text" id="username" placeholder="Enter Codewars username" required>
+                <button type="submit">Fetch User</button>
+            </form>
+            <button id="toggleMode">Dark/Light Mode</button>
+            <button id="clearData">Clear</button>
+        </div>
+        <div class="cards" id="userCards"></div>
+    </div>
+    <script src="cw.js"></script>
+</body>
+</html>
